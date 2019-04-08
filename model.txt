@@ -1,1 +1,25 @@
+Purpose:
+  The purspose of this project is to model an autonomous agent that will aid on the creation of generative art.
+  
+System:
+  The system is more than the sum of its parts.
+  
+Rules:
+  Simple rules.
+ 
+Agents:
+  Autonomous Agent
+  Limited ability to perceive its environment
+  Process environment and determines an action
+  No global leader, agents are decentralized
+ 
+ 
+Basing agents on Craig W. Reynolds paper Steering behavior for autonomous characters
 
+Vehicles:
+  -Action/Selection: A desired vector.
+  -Steering: A force, just a vector.
+  -Locomotion: Apply force of steering force to locomotion.
+      -Formula: Euler Integration (Location, Velocity, Acceleration)
+      -Box2D
+      -toccilibs
